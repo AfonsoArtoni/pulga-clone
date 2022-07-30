@@ -1,12 +1,12 @@
 import React from "react";
-import { NavigationContainer } from "@react-navigation/native";
-import { Navigation } from "./navigation";
+import {View} from 'react-native';
+import { StatusBar } from "expo-status-bar";
 
 const App: React.FC = () => {
-    return (
-      <NavigationContainer>
-        <Navigation />
-      </NavigationContainer>
+  return (
+    <View>
+      <StatusBar style="light" />
+    </View>
   );
 };
 
